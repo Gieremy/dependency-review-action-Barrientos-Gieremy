@@ -1,0 +1,11 @@
+2025-10-31 22:43:08.530 [info] 
+
+
+
+
+2025-10-31 22:43:08.547 [info] Extension host agent started.
+2025-10-31 22:43:08.567 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gieremy_barrientos/.codeoss/extensions
+2025-10-31 22:43:08.588 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gieremy_barrientos/.codeoss/extensions
+2025-10-31 22:43:12.196 [info] [127.0.0.1][00903238][ManagementConnection] New connection established.
+2025-10-31 22:43:12.318 [info] [127.0.0.1][016c1137][ExtensionHostConnection] New connection established.
+2025-10-31 22:43:14.310 [info] [127.0.0.1][016c1137][ExtensionHostConnection] <1269> Launched Extension Host Process.

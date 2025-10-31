@@ -1,0 +1,703 @@
+2025-10-31 22:43:18.583 [info] [main] Log level: Info
+2025-10-31 22:43:18.583 [info] [main] Validating found git in: "git"
+2025-10-31 22:43:18.583 [info] [main] Using git "2.43.0" from "git"
+2025-10-31 22:43:18.583 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-31 22:43:18.583 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:43:18.583 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-31 22:43:24.192 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-31 22:43:24.192 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-31 22:44:11.291 [info] > git rev-parse --show-toplevel [537ms]
+2025-10-31 22:44:12.127 [info] > git rev-parse --git-dir --git-common-dir [514ms]
+2025-10-31 22:44:12.186 [info] [Model][openRepository] Opened repository (path): /home/gieremy_barrientos/dependency-review-action-Barrientos-Gieremy
+2025-10-31 22:44:12.186 [info] [Model][openRepository] Opened repository (real path): /home/gieremy_barrientos/dependency-review-action-Barrientos-Gieremy
+2025-10-31 22:44:12.630 [info] > git config --get commit.template [409ms]
+2025-10-31 22:44:13.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [295ms]
+2025-10-31 22:44:13.092 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:44:13.158 [info] > git status -z -uall [52ms]
+2025-10-31 22:44:13.159 [info] > git check-ignore -v -z --stdin [6ms]
+2025-10-31 22:44:13.175 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [52ms]
+2025-10-31 22:44:13.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [276ms]
+2025-10-31 22:44:13.473 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:44:13.474 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-10-31 22:44:13.677 [info] > git config --get commit.template [322ms]
+2025-10-31 22:44:14.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [233ms]
+2025-10-31 22:44:14.033 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:44:14.078 [info] > git status -z -uall [33ms]
+2025-10-31 22:44:14.091 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-10-31 22:44:30.272 [info] > git config --get commit.template [10ms]
+2025-10-31 22:44:30.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-10-31 22:44:30.283 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gieremy_barrientos/dependency-review-action-Barrientos-Gieremy/.git/refs/remotes/origin/main'
+2025-10-31 22:44:30.284 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-10-31 22:44:30.304 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:44:30.362 [info] > git status -z -uall [69ms]
+2025-10-31 22:44:30.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-10-31 22:44:30.391 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-10-31 22:44:30.391 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-31 22:44:30.405 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2025-10-31 22:44:30.417 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-10-31 22:44:30.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-10-31 22:44:30.437 [info] > git config --add --local branch.main.vscode-merge-base origin/main [2ms]
+2025-10-31 22:44:30.455 [info] > git config --get commit.template [9ms]
+2025-10-31 22:44:30.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-10-31 22:44:30.466 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gieremy_barrientos/dependency-review-action-Barrientos-Gieremy/.git/refs/remotes/origin/main'
+2025-10-31 22:44:30.468 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-10-31 22:44:30.487 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:44:30.544 [info] > git status -z -uall [68ms]
+2025-10-31 22:44:30.565 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2025-10-31 22:44:30.577 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-10-31 22:44:30.588 [info] > git diff --name-status -z --diff-filter=ADMR f02192c7aa83af2b7e52ad0ef2dc703c39f565e3...refs/remotes/origin/main [13ms]
+2025-10-31 22:44:30.590 [info] > git diff --name-status -z --diff-filter=ADMR f02192c7aa83af2b7e52ad0ef2dc703c39f565e3...refs/remotes/origin/main [3ms]
+2025-10-31 22:44:35.396 [info] > git config --get commit.template [9ms]
+2025-10-31 22:44:35.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-10-31 22:44:35.406 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gieremy_barrientos/dependency-review-action-Barrientos-Gieremy/.git/refs/remotes/origin/main'
+2025-10-31 22:44:35.408 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-10-31 22:44:35.429 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:44:35.484 [info] > git status -z -uall [66ms]
+2025-10-31 22:45:33.343 [info] > git check-ignore -v -z --stdin [77ms]
+2025-10-31 22:45:35.072 [info] > git check-ignore -v -z --stdin [46ms]
+2025-10-31 22:45:56.258 [info] > git check-ignore -v -z --stdin [2ms]
+2025-10-31 22:46:39.203 [info] > git check-ignore -v -z --stdin [2ms]
+2025-10-31 22:46:40.767 [info] > git check-ignore -v -z --stdin [3ms]
+2025-10-31 22:52:41.072 [info] > git rev-parse --show-toplevel [13ms]
+2025-10-31 22:52:41.106 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-10-31 22:52:41.116 [info] [Model][openRepository] Opened repository (path): /home/gieremy_barrientos
+2025-10-31 22:52:41.116 [info] [Model][openRepository] Opened repository (real path): /home/gieremy_barrientos
+2025-10-31 22:52:41.152 [info] > git config --get commit.template [19ms]
+2025-10-31 22:52:41.182 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:52:41.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-10-31 22:52:41.199 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:52:41.237 [info] > git status -z -uall [23ms]
+2025-10-31 22:52:41.266 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [35ms]
+2025-10-31 22:52:41.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-10-31 22:52:41.315 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:52:41.316 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-10-31 22:52:41.354 [info] > git config --get commit.template [43ms]
+2025-10-31 22:52:41.392 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:52:41.431 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2025-10-31 22:52:41.431 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:52:41.453 [info] > git status -z -uall [13ms]
+2025-10-31 22:52:41.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2025-10-31 22:52:41.841 [info] > git check-ignore -v -z --stdin [17ms]
+2025-10-31 22:52:44.265 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:52:44.265 [info] > git config --get commit.template [11ms]
+2025-10-31 22:52:44.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-10-31 22:52:44.267 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:52:44.286 [info] > git status -z -uall [9ms]
+2025-10-31 22:52:44.289 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-10-31 22:52:49.313 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:52:49.314 [info] > git config --get commit.template [10ms]
+2025-10-31 22:52:49.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-10-31 22:52:49.315 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:52:49.335 [info] > git status -z -uall [10ms]
+2025-10-31 22:52:49.337 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:53:12.719 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:53:12.720 [info] > git config --get commit.template [10ms]
+2025-10-31 22:53:12.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-10-31 22:53:12.721 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:53:12.741 [info] > git status -z -uall [11ms]
+2025-10-31 22:53:12.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:53:21.462 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:53:21.463 [info] > git config --get commit.template [13ms]
+2025-10-31 22:53:21.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-10-31 22:53:21.465 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:53:21.485 [info] > git status -z -uall [12ms]
+2025-10-31 22:53:21.486 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:54:31.766 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:31.767 [info] > git config --get commit.template [10ms]
+2025-10-31 22:54:31.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-10-31 22:54:31.769 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:54:31.789 [info] > git status -z -uall [12ms]
+2025-10-31 22:54:31.791 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:54:36.837 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:36.839 [info] > git config --get commit.template [13ms]
+2025-10-31 22:54:36.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-10-31 22:54:36.840 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:54:36.862 [info] > git status -z -uall [14ms]
+2025-10-31 22:54:36.864 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-10-31 22:54:41.888 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:41.889 [info] > git config --get commit.template [11ms]
+2025-10-31 22:54:41.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-10-31 22:54:41.891 [warning] [Git][getBranch] No such branch: master
+2025-10-31 22:54:41.911 [info] > git status -z -uall [12ms]
+2025-10-31 22:54:41.912 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:54:47.358 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:47.359 [info] > git config --get commit.template [11ms]
+2025-10-31 22:54:47.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:54:47.360 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:54:47.380 [info] > git status -z -uall [11ms]
+2025-10-31 22:54:47.381 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:54:47.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:54:47.396 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:54:47.396 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for codeql-test: Error: No such branch: codeql-test.
+2025-10-31 22:54:52.413 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:52.413 [info] > git config --get commit.template [10ms]
+2025-10-31 22:54:52.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:54:52.415 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:54:52.433 [info] > git status -z -uall [10ms]
+2025-10-31 22:54:52.434 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:54:57.455 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:54:57.456 [info] > git config --get commit.template [10ms]
+2025-10-31 22:54:57.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:54:57.457 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:54:57.474 [info] > git status -z -uall [9ms]
+2025-10-31 22:54:57.476 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:54:58.130 [info] > git check-ignore -v -z --stdin [2ms]
+2025-10-31 22:54:59.307 [info] > git check-ignore -v -z --stdin [11ms]
+2025-10-31 22:54:59.308 [info] > git check-ignore -v -z --stdin [3ms]
+2025-10-31 22:55:02.500 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:02.501 [info] > git config --get commit.template [11ms]
+2025-10-31 22:55:02.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:55:02.502 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:02.525 [info] > git status -z -uall [14ms]
+2025-10-31 22:55:02.526 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:04.740 [info] > git check-ignore -v -z --stdin [2ms]
+2025-10-31 22:55:07.550 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:07.551 [info] > git config --get commit.template [11ms]
+2025-10-31 22:55:07.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:55:07.553 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:07.575 [info] > git status -z -uall [12ms]
+2025-10-31 22:55:07.576 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:14.031 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:14.032 [info] > git config --get commit.template [11ms]
+2025-10-31 22:55:14.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 22:55:14.035 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:14.056 [info] > git status -z -uall [12ms]
+2025-10-31 22:55:14.058 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:19.081 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:19.081 [info] > git config --get commit.template [10ms]
+2025-10-31 22:55:19.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 22:55:19.084 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:19.104 [info] > git status -z -uall [11ms]
+2025-10-31 22:55:19.107 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:24.122 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:24.132 [info] > git config --get commit.template [11ms]
+2025-10-31 22:55:24.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:55:24.134 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:24.153 [info] > git status -z -uall [10ms]
+2025-10-31 22:55:24.155 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:55:38.636 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:38.637 [info] > git config --get commit.template [11ms]
+2025-10-31 22:55:38.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 22:55:38.639 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:38.660 [info] > git status -z -uall [12ms]
+2025-10-31 22:55:38.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:43.682 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:43.683 [info] > git config --get commit.template [9ms]
+2025-10-31 22:55:43.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:55:43.684 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:43.702 [info] > git status -z -uall [9ms]
+2025-10-31 22:55:43.705 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:55:48.726 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:48.728 [info] > git config --get commit.template [10ms]
+2025-10-31 22:55:48.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:55:48.729 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:48.746 [info] > git status -z -uall [9ms]
+2025-10-31 22:55:48.748 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:55:53.769 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:53.770 [info] > git config --get commit.template [10ms]
+2025-10-31 22:55:53.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:55:53.772 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:53.790 [info] > git status -z -uall [9ms]
+2025-10-31 22:55:53.791 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:55:58.813 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:55:58.814 [info] > git config --get commit.template [10ms]
+2025-10-31 22:55:58.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:55:58.816 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:55:58.835 [info] > git status -z -uall [11ms]
+2025-10-31 22:55:58.837 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:56:03.851 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:03.860 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:03.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:56:03.862 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:03.880 [info] > git status -z -uall [10ms]
+2025-10-31 22:56:03.883 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:56:08.904 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:08.905 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:08.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:56:08.907 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:08.925 [info] > git status -z -uall [10ms]
+2025-10-31 22:56:08.926 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:56:13.951 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:13.951 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:13.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:56:13.953 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:13.971 [info] > git status -z -uall [10ms]
+2025-10-31 22:56:13.972 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 22:56:18.988 [info] > git config --get commit.template [2ms]
+2025-10-31 22:56:18.997 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:18.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:56:18.999 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:19.018 [info] > git status -z -uall [10ms]
+2025-10-31 22:56:19.020 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:56:24.042 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:24.042 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:24.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:56:24.044 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:24.064 [info] > git status -z -uall [11ms]
+2025-10-31 22:56:24.065 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:56:29.077 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:29.087 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:29.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:56:29.088 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:29.107 [info] > git status -z -uall [10ms]
+2025-10-31 22:56:29.110 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:56:38.559 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:56:38.560 [info] > git config --get commit.template [10ms]
+2025-10-31 22:56:38.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:56:38.561 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:56:38.585 [info] > git status -z -uall [12ms]
+2025-10-31 22:56:38.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 22:57:33.451 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:57:33.461 [info] > git config --get commit.template [10ms]
+2025-10-31 22:57:33.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:57:33.462 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:57:33.481 [info] > git status -z -uall [11ms]
+2025-10-31 22:57:33.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:58:02.811 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:58:02.812 [info] > git config --get commit.template [9ms]
+2025-10-31 22:58:02.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:58:02.813 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:58:02.832 [info] > git status -z -uall [11ms]
+2025-10-31 22:58:02.833 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:58:25.433 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:58:25.434 [info] > git config --get commit.template [10ms]
+2025-10-31 22:58:25.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 22:58:25.435 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:58:25.453 [info] > git status -z -uall [9ms]
+2025-10-31 22:58:25.455 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 22:59:17.142 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 22:59:17.151 [info] > git config --get commit.template [9ms]
+2025-10-31 22:59:17.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 22:59:17.153 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 22:59:17.170 [info] > git status -z -uall [9ms]
+2025-10-31 22:59:17.172 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:00.819 [info] > git config --get commit.template [2ms]
+2025-10-31 23:01:00.819 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:01:00.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:01:00.829 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:00.848 [info] > git status -z -uall [10ms]
+2025-10-31 23:01:00.850 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:05.873 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:01:05.874 [info] > git config --get commit.template [11ms]
+2025-10-31 23:01:05.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:01:05.875 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:05.897 [info] > git status -z -uall [12ms]
+2025-10-31 23:01:05.898 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:13.867 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:01:13.868 [info] > git config --get commit.template [10ms]
+2025-10-31 23:01:13.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:01:13.869 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:13.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:13.951 [info] > git status -z -uall [73ms]
+2025-10-31 23:01:18.967 [info] > git config --get commit.template [3ms]
+2025-10-31 23:01:18.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:01:18.979 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:19.001 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:19.060 [info] > git status -z -uall [71ms]
+2025-10-31 23:01:24.087 [info] > git config --get commit.template [12ms]
+2025-10-31 23:01:24.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:01:24.088 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:24.108 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:01:24.170 [info] > git status -z -uall [73ms]
+2025-10-31 23:01:29.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:01:29.195 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:29.195 [info] > git config --get commit.template [12ms]
+2025-10-31 23:01:29.216 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:01:29.276 [info] > git status -z -uall [72ms]
+2025-10-31 23:01:41.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:01:41.312 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:41.313 [info] > git config --get commit.template [12ms]
+2025-10-31 23:01:41.332 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:01:41.392 [info] > git status -z -uall [71ms]
+2025-10-31 23:01:46.420 [info] > git config --get commit.template [11ms]
+2025-10-31 23:01:46.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:01:46.422 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:46.463 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-10-31 23:01:46.541 [info] > git status -z -uall [109ms]
+2025-10-31 23:01:51.566 [info] > git config --get commit.template [2ms]
+2025-10-31 23:01:51.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:01:51.579 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:01:51.600 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:01:51.675 [info] > git status -z -uall [88ms]
+2025-10-31 23:02:06.095 [info] > git config --get commit.template [9ms]
+2025-10-31 23:02:06.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:02:06.097 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:06.117 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:02:06.180 [info] > git status -z -uall [74ms]
+2025-10-31 23:02:11.207 [info] > git config --get commit.template [13ms]
+2025-10-31 23:02:11.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:02:11.208 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:11.230 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:02:11.297 [info] > git status -z -uall [80ms]
+2025-10-31 23:02:27.398 [info] > git config --get commit.template [9ms]
+2025-10-31 23:02:27.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:02:27.399 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:27.419 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:02:27.479 [info] > git status -z -uall [71ms]
+2025-10-31 23:02:32.496 [info] > git config --get commit.template [3ms]
+2025-10-31 23:02:32.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:02:32.507 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:32.529 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:02:32.587 [info] > git status -z -uall [71ms]
+2025-10-31 23:02:37.651 [info] > git config --get commit.template [10ms]
+2025-10-31 23:02:37.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [1ms]
+2025-10-31 23:02:37.653 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:37.677 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-10-31 23:02:37.731 [info] > git status -z -uall [70ms]
+2025-10-31 23:02:42.754 [info] > git config --get commit.template [10ms]
+2025-10-31 23:02:42.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:02:42.755 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:42.778 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:02:42.839 [info] > git status -z -uall [74ms]
+2025-10-31 23:02:47.863 [info] > git config --get commit.template [11ms]
+2025-10-31 23:02:47.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:02:47.865 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:47.886 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:02:47.946 [info] > git status -z -uall [72ms]
+2025-10-31 23:02:57.894 [info] > git config --get commit.template [11ms]
+2025-10-31 23:02:57.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:02:57.895 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:02:57.915 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:02:57.972 [info] > git status -z -uall [69ms]
+2025-10-31 23:03:02.994 [info] > git config --get commit.template [9ms]
+2025-10-31 23:03:02.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [1ms]
+2025-10-31 23:03:02.996 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:03:03.016 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:03:03.078 [info] > git status -z -uall [72ms]
+2025-10-31 23:03:08.101 [info] > git config --get commit.template [10ms]
+2025-10-31 23:03:08.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:03:08.102 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:03:08.124 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:03:08.211 [info] > git status -z -uall [99ms]
+2025-10-31 23:03:13.236 [info] > git config --get commit.template [10ms]
+2025-10-31 23:03:13.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:03:13.237 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:03:13.256 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:03:13.315 [info] > git status -z -uall [70ms]
+2025-10-31 23:03:18.340 [info] > git config --get commit.template [11ms]
+2025-10-31 23:03:18.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:03:18.341 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:03:18.363 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:03:18.422 [info] > git status -z -uall [72ms]
+2025-10-31 23:03:24.525 [info] > git config --get commit.template [9ms]
+2025-10-31 23:03:24.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:03:24.527 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:03:24.547 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:03:24.605 [info] > git status -z -uall [69ms]
+2025-10-31 23:04:02.315 [info] > git config --get commit.template [10ms]
+2025-10-31 23:04:02.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:04:02.317 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:02.336 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:04:02.395 [info] > git status -z -uall [70ms]
+2025-10-31 23:04:07.422 [info] > git config --get commit.template [12ms]
+2025-10-31 23:04:07.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:04:07.423 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:07.449 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:04:07.507 [info] > git status -z -uall [74ms]
+2025-10-31 23:04:12.531 [info] > git config --get commit.template [9ms]
+2025-10-31 23:04:12.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:04:12.532 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:12.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:04:12.612 [info] > git status -z -uall [72ms]
+2025-10-31 23:04:17.634 [info] > git config --get commit.template [9ms]
+2025-10-31 23:04:17.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:04:17.636 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:17.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:04:17.715 [info] > git status -z -uall [71ms]
+2025-10-31 23:04:22.747 [info] > git config --get commit.template [13ms]
+2025-10-31 23:04:22.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [13ms]
+2025-10-31 23:04:22.797 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:22.842 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-10-31 23:04:22.922 [info] > git status -z -uall [113ms]
+2025-10-31 23:04:27.959 [info] > git config --get commit.template [12ms]
+2025-10-31 23:04:27.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [12ms]
+2025-10-31 23:04:27.984 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:04:28.030 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-10-31 23:04:28.118 [info] > git status -z -uall [123ms]
+2025-10-31 23:05:02.689 [info] > git config --get commit.template [10ms]
+2025-10-31 23:05:02.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:05:02.691 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:05:02.711 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:05:02.771 [info] > git status -z -uall [71ms]
+2025-10-31 23:05:07.788 [info] > git config --get commit.template [3ms]
+2025-10-31 23:05:07.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:05:07.799 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:05:07.819 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:05:07.879 [info] > git status -z -uall [72ms]
+2025-10-31 23:05:14.061 [info] > git config --get commit.template [590ms]
+2025-10-31 23:05:17.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [1842ms]
+2025-10-31 23:05:17.385 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:05:18.546 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [866ms]
+2025-10-31 23:05:19.683 [info] > git status -z -uall [2154ms]
+2025-10-31 23:05:33.969 [info] > git config --get commit.template [6071ms]
+2025-10-31 23:05:43.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [5744ms]
+2025-10-31 23:05:43.258 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:05:44.164 [info] > git status -z -uall [851ms]
+2025-10-31 23:05:44.165 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [758ms]
+2025-10-31 23:05:54.184 [info] > git config --get commit.template [1643ms]
+2025-10-31 23:05:55.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [705ms]
+2025-10-31 23:05:55.273 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:05:55.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-10-31 23:05:55.655 [info] > git status -z -uall [373ms]
+2025-10-31 23:06:01.714 [info] > git config --get commit.template [688ms]
+2025-10-31 23:06:02.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [693ms]
+2025-10-31 23:06:02.778 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:02.820 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-10-31 23:06:03.203 [info] > git status -z -uall [415ms]
+2025-10-31 23:06:08.904 [info] > git config --get commit.template [291ms]
+2025-10-31 23:06:09.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [159ms]
+2025-10-31 23:06:09.169 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:09.274 [info] > git status -z -uall [96ms]
+2025-10-31 23:06:09.338 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [150ms]
+2025-10-31 23:06:14.835 [info] > git config --get commit.template [11ms]
+2025-10-31 23:06:14.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:14.836 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:14.858 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:06:14.918 [info] > git status -z -uall [73ms]
+2025-10-31 23:06:19.944 [info] > git config --get commit.template [10ms]
+2025-10-31 23:06:19.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:19.946 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:19.967 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:06:20.033 [info] > git status -z -uall [78ms]
+2025-10-31 23:06:25.058 [info] > git config --get commit.template [11ms]
+2025-10-31 23:06:25.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:25.060 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:25.082 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:06:25.141 [info] > git status -z -uall [71ms]
+2025-10-31 23:06:30.165 [info] > git config --get commit.template [10ms]
+2025-10-31 23:06:30.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:30.167 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:30.189 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:06:30.249 [info] > git status -z -uall [73ms]
+2025-10-31 23:06:35.273 [info] > git config --get commit.template [10ms]
+2025-10-31 23:06:35.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:35.275 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:35.295 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:06:35.357 [info] > git status -z -uall [73ms]
+2025-10-31 23:06:40.381 [info] > git config --get commit.template [9ms]
+2025-10-31 23:06:40.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:40.383 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:40.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:06:40.463 [info] > git status -z -uall [71ms]
+2025-10-31 23:06:45.486 [info] > git config --get commit.template [10ms]
+2025-10-31 23:06:45.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:06:45.488 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:45.509 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:06:45.567 [info] > git status -z -uall [70ms]
+2025-10-31 23:06:50.593 [info] > git config --get commit.template [11ms]
+2025-10-31 23:06:50.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:06:50.595 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:50.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:06:50.683 [info] > git status -z -uall [79ms]
+2025-10-31 23:06:55.707 [info] > git config --get commit.template [10ms]
+2025-10-31 23:06:55.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:06:55.708 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:06:55.732 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:06:55.795 [info] > git status -z -uall [78ms]
+2025-10-31 23:07:00.823 [info] > git config --get commit.template [12ms]
+2025-10-31 23:07:00.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:07:00.826 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:00.848 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:07:00.917 [info] > git status -z -uall [81ms]
+2025-10-31 23:07:05.953 [info] > git config --get commit.template [16ms]
+2025-10-31 23:07:05.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [5ms]
+2025-10-31 23:07:05.955 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:05.985 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:07:06.090 [info] > git status -z -uall [122ms]
+2025-10-31 23:07:11.120 [info] > git config --get commit.template [14ms]
+2025-10-31 23:07:11.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:11.123 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:11.147 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:07:11.216 [info] > git status -z -uall [81ms]
+2025-10-31 23:07:16.242 [info] > git config --get commit.template [12ms]
+2025-10-31 23:07:16.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:16.244 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:16.265 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:07:16.325 [info] > git status -z -uall [72ms]
+2025-10-31 23:07:21.357 [info] > git config --get commit.template [13ms]
+2025-10-31 23:07:21.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:07:21.360 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:21.384 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:07:21.452 [info] > git status -z -uall [83ms]
+2025-10-31 23:07:26.470 [info] > git config --get commit.template [4ms]
+2025-10-31 23:07:26.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:26.481 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:26.501 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:07:26.561 [info] > git status -z -uall [70ms]
+2025-10-31 23:07:31.590 [info] > git config --get commit.template [11ms]
+2025-10-31 23:07:31.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:31.593 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:31.617 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:07:31.678 [info] > git status -z -uall [75ms]
+2025-10-31 23:07:36.709 [info] > git config --get commit.template [11ms]
+2025-10-31 23:07:36.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:36.710 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:36.736 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 23:07:36.811 [info] > git status -z -uall [90ms]
+2025-10-31 23:07:41.841 [info] > git config --get commit.template [12ms]
+2025-10-31 23:07:41.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:41.843 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:41.869 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-31 23:07:41.946 [info] > git status -z -uall [91ms]
+2025-10-31 23:07:46.974 [info] > git config --get commit.template [10ms]
+2025-10-31 23:07:46.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:46.976 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:46.997 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:07:47.059 [info] > git status -z -uall [73ms]
+2025-10-31 23:07:52.090 [info] > git config --get commit.template [12ms]
+2025-10-31 23:07:52.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:07:52.092 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:52.120 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:07:52.193 [info] > git status -z -uall [89ms]
+2025-10-31 23:07:57.233 [info] > git config --get commit.template [12ms]
+2025-10-31 23:07:57.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [16ms]
+2025-10-31 23:07:57.260 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:07:57.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-10-31 23:07:57.373 [info] > git status -z -uall [102ms]
+2025-10-31 23:08:02.410 [info] > git config --get commit.template [17ms]
+2025-10-31 23:08:02.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [6ms]
+2025-10-31 23:08:02.415 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:02.457 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-10-31 23:08:02.541 [info] > git status -z -uall [108ms]
+2025-10-31 23:08:07.583 [info] > git config --get commit.template [15ms]
+2025-10-31 23:08:07.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [12ms]
+2025-10-31 23:08:07.610 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:07.659 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-10-31 23:08:07.750 [info] > git status -z -uall [127ms]
+2025-10-31 23:08:13.511 [info] > git config --get commit.template [12ms]
+2025-10-31 23:08:13.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:08:13.513 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:13.536 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:08:13.609 [info] > git status -z -uall [86ms]
+2025-10-31 23:08:18.650 [info] > git config --get commit.template [15ms]
+2025-10-31 23:08:18.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:08:18.651 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:18.685 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-10-31 23:08:18.763 [info] > git status -z -uall [98ms]
+2025-10-31 23:08:24.658 [info] > git config --get commit.template [10ms]
+2025-10-31 23:08:24.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:08:24.659 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:24.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:08:24.739 [info] > git status -z -uall [71ms]
+2025-10-31 23:08:29.763 [info] > git config --get commit.template [11ms]
+2025-10-31 23:08:29.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:08:29.765 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:29.789 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:08:29.867 [info] > git status -z -uall [93ms]
+2025-10-31 23:08:34.896 [info] > git config --get commit.template [11ms]
+2025-10-31 23:08:34.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:08:34.898 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:34.919 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:08:34.978 [info] > git status -z -uall [71ms]
+2025-10-31 23:08:40.019 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:08:40.021 [info] > git config --get commit.template [26ms]
+2025-10-31 23:08:40.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 23:08:40.023 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:40.071 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-10-31 23:08:40.189 [info] > git status -z -uall [147ms]
+2025-10-31 23:08:46.434 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:08:46.435 [info] > git config --get commit.template [14ms]
+2025-10-31 23:08:46.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:08:46.436 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:46.459 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:08:46.525 [info] > git status -z -uall [78ms]
+2025-10-31 23:08:51.866 [info] > git config --get commit.template [13ms]
+2025-10-31 23:08:51.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:08:51.868 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:51.891 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:08:51.962 [info] > git status -z -uall [84ms]
+2025-10-31 23:08:58.414 [info] > git config --get commit.template [4ms]
+2025-10-31 23:08:58.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [5ms]
+2025-10-31 23:08:58.429 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:08:58.457 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-10-31 23:08:58.546 [info] > git status -z -uall [106ms]
+2025-10-31 23:09:03.575 [info] > git config --get commit.template [12ms]
+2025-10-31 23:09:03.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 23:09:03.578 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:03.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:09:03.710 [info] > git status -z -uall [121ms]
+2025-10-31 23:09:08.747 [info] > git config --get commit.template [17ms]
+2025-10-31 23:09:08.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [4ms]
+2025-10-31 23:09:08.751 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:08.776 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:09:08.843 [info] > git status -z -uall [80ms]
+2025-10-31 23:09:29.939 [info] > git config --get commit.template [12ms]
+2025-10-31 23:09:29.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:09:29.940 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:29.960 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:09:30.019 [info] > git status -z -uall [71ms]
+2025-10-31 23:09:35.036 [info] > git config --get commit.template [3ms]
+2025-10-31 23:09:35.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:09:35.048 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:35.073 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:09:35.135 [info] > git status -z -uall [77ms]
+2025-10-31 23:09:40.771 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-31 23:09:40.772 [info] > git config --get commit.template [10ms]
+2025-10-31 23:09:40.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:09:40.773 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:40.797 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:09:40.858 [info] > git status -z -uall [75ms]
+2025-10-31 23:09:45.884 [info] > git config --get commit.template [11ms]
+2025-10-31 23:09:45.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [3ms]
+2025-10-31 23:09:45.886 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:45.906 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:09:45.965 [info] > git status -z -uall [70ms]
+2025-10-31 23:09:52.366 [info] > git config --get commit.template [10ms]
+2025-10-31 23:09:52.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:09:52.367 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:52.386 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:09:52.448 [info] > git status -z -uall [73ms]
+2025-10-31 23:09:57.472 [info] > git config --get commit.template [10ms]
+2025-10-31 23:09:57.492 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [11ms]
+2025-10-31 23:09:57.492 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:09:57.524 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-10-31 23:09:57.621 [info] > git status -z -uall [120ms]
+2025-10-31 23:10:06.712 [info] > git config --get commit.template [10ms]
+2025-10-31 23:10:06.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:10:06.714 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:10:06.734 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:10:06.794 [info] > git status -z -uall [71ms]
+2025-10-31 23:10:30.422 [info] > git config --get commit.template [3ms]
+2025-10-31 23:10:30.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:10:30.433 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:10:30.453 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:10:30.516 [info] > git status -z -uall [74ms]
+2025-10-31 23:10:39.209 [info] > git config --get commit.template [3ms]
+2025-10-31 23:10:39.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:10:39.220 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:10:39.240 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-31 23:10:39.298 [info] > git status -z -uall [70ms]
+2025-10-31 23:10:44.322 [info] > git config --get commit.template [9ms]
+2025-10-31 23:10:44.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:10:44.324 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:10:44.344 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:10:44.403 [info] > git status -z -uall [70ms]
+2025-10-31 23:11:26.249 [info] > git config --get commit.template [10ms]
+2025-10-31 23:11:26.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/codeql-test refs/remotes/codeql-test [2ms]
+2025-10-31 23:11:26.250 [warning] [Git][getBranch] No such branch: codeql-test
+2025-10-31 23:11:26.273 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-31 23:11:26.331 [info] > git status -z -uall [71ms]
